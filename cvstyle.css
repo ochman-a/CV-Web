@@ -1,4 +1,11 @@
 #4ad1ee blue color
+
+body
+{
+	background-color: rgb(156,156,156);
+	color: aqua;
+}
+
 h2
 {
 	font-size: 40px;
@@ -11,4 +18,4 @@ p
 {
 	font-size: 20px;
 	font-family: Arials ;
-}
+	text-shadow: 2px 2px 4px aqua;
