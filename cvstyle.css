@@ -1,18 +1,25 @@
-#4ad1ee blue color
+/*#4ad1ee blue color*/
+
+body
+{
+	background-image: url(https://www.aurorayazilim.com/wp-content/uploads/2015/10/web-tasarimi-background.jpg);
+}
 
 h2
 {
 	font-size: 40px;
 	font-family: Arial Black ;
 	text-decoration: underline;
-	color: aqua;
+	margin-top: 5%;
+	padding-left: 2%;
+	background: rgba(169, 169, 169, 0.5)
+
 }
 
 p
 {
 	font-size: 20px;
 	font-family: Arials ;
-	text-shadow: 2px 2px 4px aqua;
 }
 
 .l-comp
@@ -28,7 +35,7 @@ p
 	padding-top: 10px;
 	padding-left: 50px;
 	height: 100px;
-	width: 83%;
+	width: 84%;
 	background-color: #111;
 	color: aqua;
 }
@@ -45,13 +52,30 @@ p
 	overflow-x: hidden;
 	background-color: #111;
 	padding-top: 20px;
+	padding-left: 20px;
 	color: aqua;
 }
 
+.core-elem
+{
+	margin-top: 5%;
+}
 
 .core
 {
-	margin-left: 220px;
+	margin-left: 225px;
+	padding-left: 2%;
+	background: rgba(169, 169, 169, 0.3);
 	display: block;
 	right: 0;
+}
+
+.footer
+{
+	margin-left: 190px;
+	padding-left: 5%;
+	padding-top: 3%;
+	width: 83%;
+	height: 50px;
+	background-color: #111;
 }
