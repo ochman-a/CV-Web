@@ -1,11 +1,5 @@
 #4ad1ee blue color
 
-body
-{
-	background-color: rgb(156,156,156);
-	color: aqua;
-}
-
 h2
 {
 	font-size: 40px;
@@ -19,3 +13,45 @@ p
 	font-size: 20px;
 	font-family: Arials ;
 	text-shadow: 2px 2px 4px aqua;
+}
+
+.l-comp
+{
+
+	position: relative;
+}
+
+.fullstack
+{
+	margin-top: 20px;
+	margin-left: 190px;
+	padding-top: 10px;
+	padding-left: 50px;
+	height: 100px;
+	width: 83%;
+	background-color: #111;
+	color: aqua;
+}
+
+.side
+{
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	display: block;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	overflow-x: hidden;
+	background-color: #111;
+	padding-top: 20px;
+	color: aqua;
+}
+
+
+.core
+{
+	margin-left: 220px;
+	display: block;
+	right: 0;
+}
